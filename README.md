@@ -2,8 +2,10 @@
 
 *Development of an SMPC Flap Module for Morphing Wings*
 
-모핑 과제 비행제어시스템 설계 기술문서(LaTeX)입니다.
+Technical document (LaTeX) for the morphing aircraft project, funded by the Ministry of Trade, Industry and Energy.
 
-- `main.tex`: 문서 원고
-- `resources/`: 그림 등 리소스
-- `packages/`: 문서 작성에 사용한 [Sleek LaTeX Template](https://github.com/francois-rozet/sleek-template) (François Rozet) 패키지
+**Content:** Describes the design of the flight control system for a morphing-wing aircraft equipped with an SMPC (shape memory polymer composite) flap module, covering the control architecture and design considerations for the flap-based control surface.
+
+- `main.tex`: document source
+- `resources/`: figures and other resources
+- `packages/`: [Sleek LaTeX Template](https://github.com/francois-rozet/sleek-template) (François Rozet), used to typeset the document
