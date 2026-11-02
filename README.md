@@ -16,7 +16,7 @@
 
 ## About
 
-Technical design document from the Ministry of Trade, Industry and Energy project **"Development of an SMPC Flap Module for Morphing Wings"** (2016–2020) — the project behind my morphing-wing aircraft control research.
+Technical design document (written in Korean) from the Ministry of Trade, Industry and Energy project **"Development of an SMPC Flap Module for Morphing Wings"** (2016–2020), with collaborators at Korea Aerospace University and Chungnam National University — the project behind my morphing-wing aircraft control research. It treats span and sweep morphing generically, following Seigler and Neal's modeling approach, and assumes an aerodynamic model is given.
 
 ## Contents
 
@@ -43,12 +43,13 @@ Or open the repository in Overleaf. Sources: `main.tex`, figures in `resources/`
 
 ## Related publications
 
-| | Publication |
-|---|---|
-| Journal | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2020-nn-nonlinear-dynamic-inversion-morphing.html) — *Proc. IMechE Part G, 2020* |
-| Gold Award | [Flight control of asymmetric variable-span morphing aircraft using nonlinear dynamic inversion](https://jihoonlee91.github.io/papers/2019-flight-control-nonlinear-dynamic-inversion-gold.html) — *APISAT 2019* |
-| Conference | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2017-nn-nonlinear-dynamic-inversion-conf.html) — *EUCASS 2017* |
-| Conference (KR) | [Flight Control of a Variable Span Morphing Wing UAV](https://jihoonlee91.github.io/papers/2017-variable-span-morphing-flight-control-design-ko.html) — *KSAS 2017 Spring* |
+| | Publication | Aircraft model |
+|---|---|---|
+| Same project | [Flight Control of a Variable Span Morphing Wing UAV](https://jihoonlee91.github.io/papers/2017-variable-span-morphing-flight-control-design-ko.html) — *KSAS Spring 2017 (in Korean)* | variable-span morphing UAV |
+| Same project | [Hierarchical Flight Control System for Morphing Aircraft](https://jihoonlee91.github.io/papers/2018-hierarchical-flight-control-morphing-ko.html) — *SASE Fall 2018 (in Korean)* | overview of the group's morphing control work |
+| NDI, journal | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2020-nn-nonlinear-dynamic-inversion-morphing.html) — *Proc. IMechE Part G, 2020* | F-18 HARV with variable span |
+| NDI | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2017-nn-nonlinear-dynamic-inversion-conf.html) — *EUCASS 2017* | F-18 HARV with variable span |
+| NDI, Gold Award | [Flight control of asymmetric variable-span morphing aircraft using nonlinear dynamic inversion](https://jihoonlee91.github.io/papers/2019-flight-control-nonlinear-dynamic-inversion-gold.html) — *APISAT 2019* | NASA GTM-T2 |
 
 ## Credits
 
