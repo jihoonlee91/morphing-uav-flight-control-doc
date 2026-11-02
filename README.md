@@ -1,26 +1,57 @@
-# Flight Control System Design for Morphing Aircraft
+<div align="center">
 
-*Development of an SMPC Flap Module for Morphing Wings*
+# Flight Control System Design for a Morphing-Wing UAV
 
-Technical document (LaTeX) for the morphing aircraft project, funded by the Ministry of Trade, Industry and Energy (2016–2020).
+**LQR and nonlinear dynamic inversion for an aircraft with an SMPC (shape-memory polymer composite) flap module.**
 
-## Content
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+![Project](https://img.shields.io/badge/MOTIE%20project-2016%E2%80%932020-1d4ed8?style=flat-square)
+![Overleaf](https://img.shields.io/badge/Overleaf-ready-47A141?style=flat-square&logo=overleaf&logoColor=white)
 
-Describes the design of the flight control system for a morphing-wing aircraft equipped with an SMPC (shape memory polymer composite) flap module. Document structure:
+<img src="resources/pdf/lqr.png" width="640" alt="Longitudinal and lateral LQR control structure">
+
+<sub>Longitudinal and lateral LQR control structure for the morphing aircraft</sub>
+
+</div>
+
+## About
+
+Technical design document from the Ministry of Trade, Industry and Energy project **"Development of an SMPC Flap Module for Morphing Wings"** (2016–2020) — the project behind my morphing-wing aircraft control research.
+
+## Contents
 
 1. **Introduction**
 2. **Modeling** — force and moment derivation, nonlinear model, linear model
-3. **Linear Quadratic Regulator** — derivation of the optimal control law, application to the morphing aircraft
-4. **Nonlinear Dynamic Inversion** — general NDI theory, application to longitudinal control, issues specific to applying NDI to a morphing aircraft
+3. **Linear Quadratic Regulator** — optimal control law, application to the morphing aircraft
+4. **Nonlinear Dynamic Inversion** — general theory, longitudinal control, issues specific to morphing aircraft
 5. **Conclusion**
-6. **Appendices** — MATLAB code listings for the LQR and NDI controllers
+6. **Appendices** — MATLAB listings for the LQR and NDI controllers
 
-## Repository Structure
+<div align="center">
+<img src="resources/pdf/rolling.png" width="640" alt="Roll-angle step response">
 
-- `main.tex`: document source
-- `resources/`: figures and other resources
-- `packages/`: [Sleek LaTeX Template](https://github.com/francois-rozet/sleek-template) (François Rozet), used to typeset the document
+<sub>Roll-angle step response from the document</sub>
+</div>
 
-## How to Build
+## Build
 
-Compile with `pdflatex main.tex` (or open in Overleaf) from the repository root.
+```bash
+pdflatex main.tex
+```
+
+Or open the repository in Overleaf. Sources: `main.tex`, figures in `resources/`, template in `packages/`.
+
+## Related publications
+
+| | Publication |
+|---|---|
+| Journal | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2020-nn-nonlinear-dynamic-inversion-morphing.html) — *Proc. IMechE Part G, 2020* |
+| Gold Award | [Flight control of asymmetric variable-span morphing aircraft using nonlinear dynamic inversion](https://jihoonlee91.github.io/papers/2019-flight-control-nonlinear-dynamic-inversion-gold.html) — *APISAT 2019* |
+| Conference | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2017-nn-nonlinear-dynamic-inversion-conf.html) — *EUCASS 2017* |
+| Conference (KR) | [Flight Control of a Variable Span Morphing Wing UAV](https://jihoonlee91.github.io/papers/2017-variable-span-morphing-flight-control-design-ko.html) — *KSAS 2017 Spring* |
+
+## Credits
+
+Typeset with the [Sleek LaTeX template](https://github.com/francois-rozet/sleek-template) by François Rozet (MIT — the `LICENSE` file in this repository is the template's).
+
+<sub>Part of my morphing-aircraft control research at the Seoul National University Flight Dynamics and Control Lab — more at <a href="https://jihoonlee91.github.io/">jihoonlee91.github.io</a>.</sub>
