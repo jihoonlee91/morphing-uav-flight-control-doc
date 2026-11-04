@@ -33,13 +33,11 @@ Technical design document (written in Korean) from the Ministry of Trade, Indust
 <sub>Roll-angle step response from the document</sub>
 </div>
 
-## Build
+## Read or build
 
-```bash
-pdflatex main.tex
-```
+**Read:** download the compiled PDF from the [latest release](https://github.com/jihoonlee91/morphing-flight-control-doc/releases/latest) (`morphing-fcs-design.pdf`, built by GitHub Actions from `main.tex`).
 
-Or open the repository in Overleaf. Sources: `main.tex`, figures in `resources/`, template in `packages/`.
+**Build:** `latexmk -pdf main.tex` (needs a TeX distribution with `kotex` for the Korean text), or open the repository in Overleaf. Sources: `main.tex`, figures in `resources/`, template in `packages/`.
 
 ## Related publications
 
@@ -53,6 +51,6 @@ Or open the repository in Overleaf. Sources: `main.tex`, figures in `resources/`
 
 ## Credits
 
-Typeset with the [Sleek LaTeX template](https://github.com/francois-rozet/sleek-template) by François Rozet (MIT — the `LICENSE` file in this repository is the template's).
+Typeset with the [Sleek LaTeX template](https://github.com/francois-rozet/sleek-template) by François Rozet (MIT — see [`packages/LICENSE-sleek-template`](packages/LICENSE-sleek-template); that license covers the template files in `packages/`, not the document). Document text and figures © Jihoon Lee and the project collaborators.
 
 <sub>Part of my morphing-aircraft control research at the Seoul National University Flight Dynamics and Control Lab — more at <a href="https://jihoonlee91.github.io/">jihoonlee91.github.io</a>.</sub>
