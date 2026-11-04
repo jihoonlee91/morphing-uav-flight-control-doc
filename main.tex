@@ -7,7 +7,9 @@
 \usepackage[english]{babel}
 \usepackage[noheader]{packages/sleek}
 \usepackage{packages/sleek-title}
-\usepackage{packages/sleek-theorems}
+% sleek-theorems is not loaded: the document uses no theorem environments, and on
+% current TeX Live the 2020 package stops pdflatex ("Command \c@lem already defined").
+% \usepackage{packages/sleek-theorems}
 \usepackage{packages/sleek-listings}
 \usepackage{kotex}
 \usepackage{lipsum}
