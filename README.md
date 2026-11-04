@@ -47,7 +47,7 @@ Technical design document (written in Korean) from the Ministry of Trade, Indust
 | Same project | [Hierarchical Flight Control System for Morphing Aircraft](https://jihoonlee91.github.io/papers/2018-hierarchical-flight-control-morphing-ko.html) — *SASE Fall 2018 (in Korean)* | overview of the group's morphing control work |
 | NDI, journal | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2020-nn-nonlinear-dynamic-inversion-morphing.html) — *Proc. IMechE Part G, 2020* | F-18 HARV with variable span |
 | NDI | [Neural network-based nonlinear dynamic inversion control of variable-span morphing aircraft](https://jihoonlee91.github.io/papers/2017-nn-nonlinear-dynamic-inversion-conf.html) — *EUCASS 2017* | F-18 HARV with variable span |
-| NDI, Gold Award | [Flight control of asymmetric variable-span morphing aircraft using nonlinear dynamic inversion](https://jihoonlee91.github.io/papers/2019-flight-control-nonlinear-dynamic-inversion-gold.html) — *APISAT 2019* | NASA GTM-T2 |
+| NDI | [Flight control of asymmetric variable-span morphing aircraft using nonlinear dynamic inversion](https://jihoonlee91.github.io/papers/2019-flight-control-nonlinear-dynamic-inversion.html) — *APISAT 2019* | NASA GTM-T2 |
 
 ## Credits
 
