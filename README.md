@@ -35,7 +35,7 @@ Technical design document (written in Korean) from the Ministry of Trade, Indust
 
 ## Read or build
 
-**Read:** download the compiled PDF from the [latest release](https://github.com/jihoonlee91/morphing-flight-control-doc/releases/latest) (`morphing-fcs-design.pdf`, built by GitHub Actions from `main.tex`).
+**Read:** download the compiled PDF from the [latest release](https://github.com/jihoonlee91/morphing-uav-flight-control-doc/releases/latest) (`morphing-fcs-design.pdf`, built by GitHub Actions from `main.tex`).
 
 **Build:** `latexmk -pdf main.tex` (needs a TeX distribution with `kotex` for the Korean text), or open the repository in Overleaf. Sources: `main.tex`, figures in `resources/`, template in `packages/`.
 
