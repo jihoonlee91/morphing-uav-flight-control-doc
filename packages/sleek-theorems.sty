@@ -69,20 +69,22 @@
 
 % Environments
 
+% Guarded since 2026-11-04: newer TeX Live already defines some of these
+% counters (pdflatex stopped with "Command \c@lem already defined").
 \theoremstyle{plain}
-\newtheorem{thm}{\lgthm}
-\newtheorem{lem}[thm]{\lglem}
-\newtheorem{prop}[thm]{\lgprop}
+\@ifundefined{c@thm}{\newtheorem{thm}{\lgthm}}{}
+\@ifundefined{c@lem}{\newtheorem{lem}[thm]{\lglem}}{}
+\@ifundefined{c@prop}{\newtheorem{prop}[thm]{\lgprop}}{}
 
 \theoremstyle{definition}
-\newtheorem{defn}{\lgdefn}
-\newtheorem{hyp}{\lghyp}
-\newtheorem{meth}{\lgmeth}
-\newtheorem{quest}{\lgquest}
+\@ifundefined{c@defn}{\newtheorem{defn}{\lgdefn}}{}
+\@ifundefined{c@hyp}{\newtheorem{hyp}{\lghyp}}{}
+\@ifundefined{c@meth}{\newtheorem{meth}{\lgmeth}}{}
+\@ifundefined{c@quest}{\newtheorem{quest}{\lgquest}}{}
 
 \theoremstyle{remark}
-\newtheorem{answ}{\lgansw}[quest]
-\newtheorem{expl}{\lgexpl}
+\@ifundefined{c@answ}{\newtheorem{answ}{\lgansw}[quest]}{}
+\@ifundefined{c@expl}{\newtheorem{expl}{\lgexpl}}{}
 \newtheorem*{rmk}{\lgrmk}
 \newtheorem*{note}{\lgnote}
 \newtheorem*{tip}{\lgtip}
